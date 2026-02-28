@@ -72,3 +72,24 @@ The system currently manages course profiles using session-based storage.
 ---
 
 ## 📂 Project Structure
+
+app/
+├── Models/
+│ └── Course.php
+├── Http/
+│ └── Controllers/
+│ └── CourseController.php
+
+resources/
+└── views/
+├── Layouts/
+│ └── app.blade.php
+└── Courses/
+├── create.blade.php
+├── index.blade.php
+├── search.blade.php
+├── search_result.blade.php
+├── edit.blade.php
+└── delete_confirm.blade.php
+
+
