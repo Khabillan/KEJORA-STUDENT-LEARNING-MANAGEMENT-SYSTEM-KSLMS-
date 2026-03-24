@@ -1,14 +1,8 @@
-# KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM-KSLMS-
+# KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM (KSLMS)
+
 A Student Learning Management System (SLMS) developed to manage students, courses, learning materials, and academic records within a centralized and user-friendly platform, aimed at improving the organization and accessibility of educational information for both students and administrators.
 
-
-
-USE CASE and CLASS DIAGRAM FOR KSLMS 
-
-[USE CASE DIAGRAM AND CLASS DIAGRAM FOR KSLMS.docx](https://github.com/user-attachments/files/25455846/USE.CASE.DIAGRAM.AND.CLASS.DIAGRAM.FOR.KSLMS.docx)
-
-PRE CONSTRUCTION MODULE 
-[Student Learning Management System .pdf](https://github.com/user-attachments/files/25458648/ASSIGNMENT.1.CSEB5223.-.Student.Learning.Management.System.pdf)
+---
 
 ## 📌 Project Overview
 
@@ -25,26 +19,38 @@ This system focuses on demonstrating:
 - MVC architecture implementation
 - Responsive UI using Bootstrap 5
 
-The system currently manages course profiles using session-based storage.
+The system manages both **Course Profiles and Student Profiles** using session-based storage.
 
 ---
 
 ## ⚙️ System Features
 
-### 1️⃣ Course Management
+### 📚 Course Management
 - Add new course profile
 - View all courses
 - Search course by course code (Linear Search)
 - Edit course (Course code is not editable)
 - Delete course with confirmation
 
-### 2️⃣ Validation & Error Handling
-- Duplicate course code prevention
-- Form validation using Laravel validation rules
-- Array out-of-bound prevention
-- "Course not found" handling
+### 👨‍🎓 Student Management
+- Add new student profile
+- View all students
+- Search student by student ID (Linear Search)
+- Edit student (Student ID is not editable)
+- Delete student with confirmation
 
-### 3️⃣ User Interface
+### 🔗 System Integration
+- Course and Student modules are integrated into a single system
+- Shared navigation bar for easy access between modules
+- Consistent layout using Blade template inheritance
+
+### 🛡 Validation & Error Handling
+- Duplicate course and student ID prevention
+- Laravel form validation
+- Array out-of-bound prevention using `isset()`
+- "Course not found" and "Student not found" handling
+
+### 🎨 User Interface
 - Responsive layout using Bootstrap 5
 - Reusable layout using Blade `@extends`
 - Navigation bar for quick access
@@ -56,6 +62,7 @@ The system currently manages course profiles using session-based storage.
 
 ### 🔹 Programming Concepts Used
 - Custom `Course` class
+- Custom `Student` class
 - Encapsulation (Private attributes)
 - Getter and Setter methods
 - Linear Search Algorithm
@@ -73,18 +80,28 @@ The system currently manages course profiles using session-based storage.
 
 ## 📂 Project Structure
 
+
 app
 ├── Models
-│ └── Course.php
+│ ├── Course.php
+│ └── Student.php
 ├── Http
 │ └── Controllers
-│ └── CourseController.php
+│ ├── CourseController.php
+│ └── StudentController.php
 
 resources
 └── views
 ├── Layouts
 │ └── app.blade.php
-└── courses
+├── courses
+│ ├── create.blade.php
+│ ├── index.blade.php
+│ ├── search.blade.php
+│ ├── search_result.blade.php
+│ ├── edit.blade.php
+│ └── delete_confirm.blade.php
+└── students
 ├── create.blade.php
 ├── index.blade.php
 ├── search.blade.php
@@ -93,3 +110,29 @@ resources
 └── delete_confirm.blade.php
 
 
+
+## 🔍 Algorithm Used
+
+### Linear Search Implementation
+
+The system uses linear search to locate both courses and students:
+
+for (i = 0; i < count(array); i++)
+if (ID matches)
+return index
+
+
+This ensures:
+- Safe array access
+- No out-of-bound errors
+- Efficient search for small datasets
+
+---
+
+
+
+
+
+
+
+## 📂 Project Structure
