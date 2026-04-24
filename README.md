@@ -24,7 +24,7 @@ Responsive UI using Bootstrap 5
 The system manages both Course Profiles and Student Profiles using session-based storage.
 
 
-
+---
 
 
 
@@ -40,7 +40,7 @@ Delete course with confirmation
 
 
 
-
+---
 
 
 ## 👨‍🎓 Student Management
@@ -72,7 +72,7 @@ Overall: Many-to-Many relationship via Enrollment
 
 
 
-
+---
 
 
 
@@ -163,7 +163,7 @@ All modules work together seamlessly using session-based storage.
 
 
 
-
+---
 
 
 ## 🧠 Technical Implementation
@@ -257,7 +257,7 @@ Handling invalid user inputs
 Integrating all modules smoothly
 
 
-
+---
 
 
 ## 🚀 Current System Status
