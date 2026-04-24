@@ -169,6 +169,7 @@ All modules work together seamlessly using session-based storage.
 ## 🧠 Technical Implementation
 
 🔹 Programming Concepts
+
 Custom Course class
 Custom Student class
 Encapsulation
@@ -183,6 +184,7 @@ PHP
 Bootstrap 5
 Blade Template Engine
 MVC Architecture
+
 ---
 
 ## 📂 Project Structure
@@ -273,7 +275,7 @@ Provide a responsive UI
 
 
 
-📌 Conclusion
+## 📌 Conclusion
 
 KSLMS successfully demonstrates key software construction concepts including modular design, OOP principles, validation, and system integration. The system is reliable, scalable, and meets all assignment requirements.
 
