@@ -1,4 +1,4 @@
-KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM (KSLMS)
+## KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM (KSLMS)
 
 A Student Learning Management System (SLMS) developed to manage students, courses, learning materials, and academic records within a centralized and user-friendly platform, aimed at improving the organization and accessibility of educational information for both students and administrators.
 
@@ -6,7 +6,7 @@ A Student Learning Management System (SLMS) developed to manage students, course
 ---
 
 
-📌 Project Overview
+##📌 Project Overview
 
 KSLMS is a Laravel-based web application developed as part of the Software Construction and Methods (CSEB5223) coursework.
 
@@ -29,7 +29,7 @@ The system manages both Course Profiles and Student Profiles using session-based
 
 
 
-⚙️ System Features
+##⚙️ System Features
 
 📚 Course Management
 Add new course profile
@@ -43,7 +43,7 @@ Delete course with confirmation
 
 
 
-👨‍🎓 Student Management
+##👨‍🎓 Student Management
 Add new student profile
 View all students
 Search student by student ID (Linear Search)
@@ -55,7 +55,7 @@ Delete student with confirmation
 
 
 
-🔗 Enrollment (Course–Student Relationship)
+##🔗 Enrollment (Course–Student Relationship)
 
 The system supports assigning students to courses.
 
@@ -76,7 +76,7 @@ Overall: Many-to-Many relationship via Enrollment
 
 
 
-🌐 API Integration
+##🌐 API Integration
 
 Simple internal API endpoints are implemented:
 
@@ -95,7 +95,7 @@ Improves user experience
 
 
 
-⚡ Caching Mechanism
+##⚡ Caching Mechanism
 
 The system uses browser localStorage to cache API results.
 
@@ -118,7 +118,7 @@ Invalid enrollment prevention
 
 
 
-🧪 Testing
+##🧪 Testing
 
 🔹 Unit Testing (Manual)
 
@@ -150,7 +150,7 @@ Invalid student/course input handling
 
 
 
-🔄 System Integration
+##🔄 System Integration
 
 Modules integrated:
 
@@ -166,7 +166,7 @@ All modules work together seamlessly using session-based storage.
 
 
 
-🧠 Technical Implementation
+##🧠 Technical Implementation
 
 🔹 Programming Concepts
 Custom Course class
@@ -246,7 +246,7 @@ This ensures:
 
 
 
-⚠️ Challenges Faced
+##⚠️ Challenges Faced
 Handling session-based data instead of database
 Preventing duplicate records
 Managing many-to-many relationships
@@ -258,7 +258,7 @@ Integrating all modules smoothly
 
 
 
-🚀 Current System Status
+##🚀 Current System Status
 
 The system is able to:
 
