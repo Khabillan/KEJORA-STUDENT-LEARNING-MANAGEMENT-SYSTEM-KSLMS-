@@ -1,7 +1,7 @@
 KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM (KSLMS)
 
 
-
+---
 
 
 
@@ -57,7 +57,7 @@ Edit student (Student ID is not editable)
 Delete student with confirmation
 
 
-
+---
 
 
 
@@ -119,7 +119,7 @@ Invalid enrollment prevention
 
 
 
-
+---
 
 
 
@@ -152,7 +152,7 @@ Invalid student/course input handling
 
 
 
-
+---
 
 
 
