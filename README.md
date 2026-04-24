@@ -1,6 +1,16 @@
 KEJORA-STUDENT-LEARNING-MANAGEMENT-SYSTEM (KSLMS)
 
+
+
+
+
+
 A Student Learning Management System (SLMS) developed to manage students, courses, learning materials, and academic records within a centralized and user-friendly platform, aimed at improving the organization and accessibility of educational information for both students and administrators.
+
+
+
+
+
 
 📌 Project Overview
 
@@ -19,6 +29,12 @@ Responsive UI using Bootstrap 5
 
 The system manages both Course Profiles and Student Profiles using session-based storage.
 
+
+
+
+
+
+
 ⚙️ System Features
 
 📚 Course Management
@@ -28,12 +44,20 @@ Search course by course code (Linear Search)
 Edit course (Course code is not editable)
 Delete course with confirmation
 
+
+
+
+
+
 👨‍🎓 Student Management
 Add new student profile
 View all students
 Search student by student ID (Linear Search)
 Edit student (Student ID is not editable)
 Delete student with confirmation
+
+
+
 
 
 
@@ -53,6 +77,11 @@ One Course → Many Enrollments
 Overall: Many-to-Many relationship via Enrollment
 
 
+
+
+
+
+
 🌐 API Integration
 
 Simple internal API endpoints are implemented:
@@ -64,6 +93,12 @@ Purpose:
 Used for auto-suggestion in enrollment form
 Ensures only valid data is used
 Improves user experience
+
+
+
+
+
+
 
 
 ⚡ Caching Mechanism
@@ -81,6 +116,12 @@ Laravel form validation
 Safe array handling using isset()
 "Course not found" / "Student not found" handling
 Invalid enrollment prevention
+
+
+
+
+
+
 
 
 🧪 Testing
@@ -110,6 +151,11 @@ Duplicate enrollment prevention
 Invalid student/course input handling
 
 
+
+
+
+
+
 🔄 System Integration
 
 Modules integrated:
@@ -120,6 +166,11 @@ Enrollment Module
 API Module
 
 All modules work together seamlessly using session-based storage.
+
+
+
+
+
 
 🧠 Technical Implementation
 
@@ -179,7 +230,7 @@ resources
         ├── student_courses.blade.php
         └── course_students.blade.php
 
-
+---
 
 ## 🔍 Algorithm Used
 
@@ -199,6 +250,8 @@ This ensures:
 
 ---
 
+
+
 ⚠️ Challenges Faced
 Handling session-based data instead of database
 Preventing duplicate records
@@ -206,6 +259,9 @@ Managing many-to-many relationships
 Ensuring API returns correct data
 Handling invalid user inputs
 Integrating all modules smoothly
+
+
+
 
 
 🚀 Current System Status
@@ -218,6 +274,8 @@ Assign and manage enrollments
 Fetch data using API
 Handle invalid and duplicate inputs
 Provide a responsive UI
+
+
 
 
 
